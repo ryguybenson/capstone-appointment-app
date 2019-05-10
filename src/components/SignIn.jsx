@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function SignIn() {
   var signIn = {
@@ -15,7 +16,7 @@ function SignIn() {
       <div style={signIn}>
         <input placeholder='text'/>
         <input placeholder='text'/>
-        <button>Sign In</button>
+        <Link to="/order">Sign In</Link>
       </div>
       <div style={signUp}>
         <button>Sign Up</button>

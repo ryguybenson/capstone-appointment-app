@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Form(){
@@ -54,8 +55,8 @@ function Form(){
         </div>
       </form>
       <div style={buttons}>
-        <button>Back</button>
-        <button>Next</button>
+        <Link to="/order">Back</Link> 
+        <Link to="/faq">Next</Link>
       </div>
     </div>
   );

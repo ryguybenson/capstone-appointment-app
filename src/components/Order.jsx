@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Order() {
   var list = {
@@ -15,7 +16,7 @@ function Order() {
   }
   var buttons = {
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     alignItems: 'center',
     postition: 'fixed',
     bottom: '5%',
@@ -56,8 +57,7 @@ function Order() {
         </div>
       </div>
       <div style={buttons}>
-        <button>Back</button>
-        <button>Next</button>
+        <Link to="/form">Begin</Link>
       </div>
     </div>
   );

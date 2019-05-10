@@ -17,10 +17,9 @@ function App() {
       <Header/>
       <Switch>
         <Route exact path='/' component={SignIn} />
-        <Route path='/' component={Order} />
-        <Route path='/' component={Form} />
-        <Route path='/' component={Buttons} />
-        <Route path='/' component={Faq} />
+        <Route path='/order' component={Order} />
+        <Route path='/form' component={Form} />
+        <Route path='/faq' component={Faq} />
       </Switch>
     </div>
   );

@@ -1,17 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Faq () {
   var header = {
     width: '85%',
     border: '1px solid black',
-    textAlign: 'center'
+    textAlign: 'center',
+    margin: 'auto'
   };
   var main = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around',
     width: '85%',
-    border: '1px solid black'
+    border: '1px solid black',
+    textAlign: 'center',
+    margin: 'auto'
   };
   var buttons = {
     display: 'flex',
