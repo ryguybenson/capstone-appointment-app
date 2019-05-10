@@ -9,10 +9,11 @@ function Order() {
     width: '80%',
   };
   var border = {
-    border: '1px solid red',
+    border: '1px solid black',
     width: '80%',
     margin: 'auto',
-    marginTop: '2%'
+    marginTop: '2%',
+    backgroundColor: '#9ed3eb'
   }
   var buttons = {
     display: 'flex',

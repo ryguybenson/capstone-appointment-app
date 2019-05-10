@@ -6,7 +6,8 @@ function Faq () {
     width: '85%',
     border: '1px solid black',
     textAlign: 'center',
-    margin: 'auto'
+    margin: 'auto',
+    marginTop: '2%'
   };
   var main = {
     display: 'flex',
@@ -56,8 +57,8 @@ function Faq () {
         </div>
       </div>
       <div style={buttons}>
-        <button>Back</button>
-        <button>Next</button>
+        <Link to="/form">Back</Link>
+        <Link to="/">Finish</Link>
       </div>
     </div>
   );

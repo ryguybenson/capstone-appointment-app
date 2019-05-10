@@ -10,7 +10,9 @@ import { Switch, Route } from 'react-router-dom';
 
 function App() {
   var main = {
-    backgroundColor: '#E5EEF3'
+    backgroundColor: '#E5EEF3',
+    height: '100vh',
+    width: '100vw'
   }
   return (
     <div style={main}>
