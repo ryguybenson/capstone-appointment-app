@@ -2,8 +2,15 @@ import React from 'react';
 
 
 function Form(){
+  var form = {
+    width: '85%',
+    margin: 'auto',
+    border: '1px solid black',
+    padding: '3%',
+    marginTop: '2%'
+  }
   return (
-    <form>
+    <form style={form}>
       <div>
         <p>How do you plan on enjoying your portraits (you may change your mind at anytime, it just gives me a better idea of what types of images to create for you)?</p>
         <input placeolder='Text'/>
@@ -30,7 +37,7 @@ function Form(){
         <input placeolder='Text'/>
       </div>
       <div>
-        <p>Please describe ora ttach pics of poses that you love and share any ohter thoughts and desires you have for your shoot</p>
+        <p>Please describe or attach pics of poses that you love and share any other thoughts and desires you have for your shoot</p>
         <input placeolder='Text'/>
       </div>
     </form>

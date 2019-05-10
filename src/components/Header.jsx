@@ -25,6 +25,3 @@ function Header() {
 };
 
 export default Header;
-fghfghfgh
-dfhgh
-fdhdf
