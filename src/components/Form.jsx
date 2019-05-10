@@ -19,7 +19,7 @@ function Form(){
     margin: 'auto',
     marginTop: '1%'
   };
-  return (
+  return (d
     <div>
       <form style={form}>
         <div>
