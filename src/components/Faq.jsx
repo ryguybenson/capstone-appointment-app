@@ -13,6 +13,16 @@ function Faq () {
     width: '85%',
     border: '1px solid black'
   };
+  var buttons = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    postition: 'fixed',
+    bottom: '5%',
+    width: '50%',
+    margin: 'auto',
+    marginTop: '1%'
+  };
   
   return(
     <div>
@@ -40,6 +50,10 @@ function Faq () {
           <p>Q: asdfgfdsgdfgfdgfgsfdgsfdgsgfd <br/>
           A: sdhgdfgdfkghdfkghfkdhgkdfshgfklsh</p>
         </div>
+      </div>
+      <div style={buttons}>
+        <button>Back</button>
+        <button>Next</button>
       </div>
     </div>
   );
