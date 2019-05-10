@@ -4,9 +4,8 @@ function Order() {
   var list = {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'flex-start',
+    justifyContent: 'space-around',
     width: '80%',
-    paddingLeft: '30%'
   };
   var border = {
     border: '1px solid red',
@@ -25,7 +24,7 @@ function Order() {
     marginTop: '1%'
   };
   var hr = {
-    width: '60%',
+    width: '90%',
     margin: 'auto'
   };
   return(
