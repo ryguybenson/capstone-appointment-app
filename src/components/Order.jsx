@@ -1,17 +1,19 @@
 import React from 'react';
 
 function Order() {
-  var order = {
-    display: 'flex',
-    flexDirection: 'column',
-    width: '85%',
-    border: '1px solid black'
-  };
   var list = {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'flex-start'
+    justifyContent: 'flex-start',
+    width: '80%',
+    paddingLeft: '30%'
   };
+  var border = {
+    border: '1px solid red',
+    width: '80%',
+    margin: 'auto',
+    marginTop: '2%'
+  }
   var buttons = {
     display: 'flex',
     justifyContent: 'space-between',
@@ -22,25 +24,33 @@ function Order() {
     margin: 'auto',
     marginTop: '1%'
   };
+  var hr = {
+    width: '60%',
+    margin: 'auto'
+  };
   return(
     <div>
-      <div stlye={order}>
+      <div style={border}>
         <div style={list}>
           <h3>1</h3>
           <h3>First item</h3>
         </div>
+        <hr style={hr}/>
         <div style={list}>
           <h3>2</h3>
           <h3>Second item</h3>
         </div>
+        <hr style={hr}/>
         <div style={list}>
           <h3>3</h3>
           <h3>Third item</h3>
         </div>
+        <hr style={hr}/>
         <div style={list}>
           <h3>4</h3>
           <h3>Fourth item</h3>
         </div>
+        <hr style={hr}/>
         <div style={list}>
           <h3>5</h3>
           <h3>Fifth item</h3>

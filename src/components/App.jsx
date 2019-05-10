@@ -17,9 +17,9 @@ function App() {
       <Header/>
       <Switch>
         <Route exact path='/' component={SignIn} />
+        <Route path='/' component={Order} />
         <Route path='/' component={Form} />
         <Route path='/' component={Buttons} />
-        <Route path='/' component={Order} />
         <Route path='/' component={Faq} />
       </Switch>
     </div>
