@@ -21,7 +21,7 @@ function Header() {
       <h1>LOGO</h1>
       <hr style={hr}/>
     </div>
-  )
-};
+  );
+}
 
 export default Header;

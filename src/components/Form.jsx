@@ -8,7 +8,7 @@ function Form(){
     border: '1px solid black',
     padding: '2%',
     marginTop: '2%'
-  }
+  };
   return (
     <form style={form}>
       <div>
@@ -25,11 +25,11 @@ function Form(){
       </div>
       <div>
         <p>Please provide a brief description of the outfits you'll be wearing. A couple things to leep in mind when selecting yout outfits:
-        <br/>
+          <br/>
           *Select outfits that you're comfortable in; you dont want to be worrying about straps that won't stay in place or other wardrobe issues.
           <br/>
           *Select clothes that best reflect your personality and dont forget accessories!
-          </p>
+        </p>
         <input placeholder='Text'/>
       </div>
       <div>

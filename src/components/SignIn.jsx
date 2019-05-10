@@ -6,22 +6,22 @@ function SignIn() {
     flexDirection: 'column',
     border: '1px solid black',
     padding: '2%'
-  }
+  };
   var signUp = {
     textAlign: 'center'
-  }
+  };
   return (
     <div>
-      <div style={signIn}
+      <div style={signIn}>
         <input placeholder='text'/>
         <input placeholder='text'/>
         <button>Sign In</button>
       </div>
       <div style={signUp}>
-        <button>Sign Up</button
+        <button>Sign Up</button>
       </div>
     </div>
-  )
+  );
 }
 
 export default SignIn;

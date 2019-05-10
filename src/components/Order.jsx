@@ -1,6 +1,17 @@
-import React from './react';
+import React from 'react';
 
 function Order() {
+  var order = {
+    display: 'flex',
+    flexDirection: 'column',
+    width: '85%',
+    border: '1px solid black'
+  };
+  var list = {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-start'
+  };
   return(
     <div stlye={order}>
       <div style={list}>
@@ -24,7 +35,7 @@ function Order() {
         <h3>Fifth item</h3>
       </div>
     </div>
-  )
+  );
 }
 
 export default Order;
