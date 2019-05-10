@@ -5,6 +5,7 @@ import Buttons from './Buttons';
 import Order from './Order';
 import Faq from './Faq';
 import SignIn from './SignIn';
+import { Switch, Route } from 'react-router-dom';
 
 
 function App() {
@@ -12,11 +13,13 @@ function App() {
   return (
     <div>
       <Header/>
-      <Form/>
-      <Buttons/>
-      <Order/>
-      <SignIn/>
-      <Faq/>
+      <Switch>
+      <Route exact path='/' component={SignIn} />
+      <Route path='/' component={Form} />
+      <Route path='/' component={Buttons} />
+      <Route path='/' component={Order} />
+      <Route path='/' component={Faq} />
+      </Switch>
     </div>
   );
 }
