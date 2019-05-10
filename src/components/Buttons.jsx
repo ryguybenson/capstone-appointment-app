@@ -9,7 +9,8 @@ function Buttons() {
     postition: 'fixed',
     bottom: '5%',
     width: '50%',
-    margin: 'auto'
+    margin: 'auto',
+    marginTop: '1%'
   }
   return (
     <div style={buttons}>
