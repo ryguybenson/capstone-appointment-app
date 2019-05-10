@@ -6,7 +6,7 @@ function Header() {
   var header = {
     height: '10vh',
     width: '100%',
-    background: 'blue',
+    backgroundColor: '#9ed3eb',
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center'

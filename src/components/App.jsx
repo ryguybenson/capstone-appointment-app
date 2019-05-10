@@ -9,9 +9,11 @@ import { Switch, Route } from 'react-router-dom';
 
 
 function App() {
-
+  var main = {
+    backgroundColor: '#E5EEF3'
+  }
   return (
-    <div>
+    <div style={main}>
       <Header/>
       <Switch>
         <Route exact path='/' component={SignIn} />

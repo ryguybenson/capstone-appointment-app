@@ -7,7 +7,8 @@ function Form(){
     margin: 'auto',
     border: '1px solid black',
     padding: '2%',
-    marginTop: '2%'
+    marginTop: '2%',
+    backgroundColor: '#9ed3eb'
   };
   var buttons = {
     display: 'flex',
@@ -19,7 +20,7 @@ function Form(){
     margin: 'auto',
     marginTop: '1%'
   };
-  return (d
+  return (
     <div>
       <form style={form}>
         <div>
